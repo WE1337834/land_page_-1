@@ -1,0 +1,88 @@
+.Home {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	margin: auto;
+}
+.Home__hero {
+	display: flex;
+	gap: 130px;
+	background: white;
+	padding: 0 19%;
+}
+.Home__introduction {
+	width: 445px;
+	display: flex;
+	flex-direction: column;
+	gap: 30px;
+	float: left;
+	padding: 0 20px;
+	margin: 130px 10px;
+}
+.Home__hero_title {
+	color: rgb(76, 88, 102);
+}
+.Home__title {
+	font-size: 60px;
+	font-weight: 400;
+	line-height: 100%;
+}
+.Home__description {
+	color: rgb(133, 133, 155);
+	font-size: 20px;
+	line-height: 150%;
+}
+.Home__hero_img {
+	width: 540px;
+	margin: 66px 0 0 0;
+}
+.Home__mw {
+	background: rgb(235, 235, 235);
+	padding: 90px 19%;
+	display: flex;
+	gap: 90px;
+	flex-direction: column;
+}
+.Home__mw_result {
+	display: flex;
+	flex-direction: row;
+	gap: 30px;
+}
+.Home__mw_result_card {
+	padding: 19px 0 0 0;
+	display: flex;
+	gap: 30px;
+	border-top: solid rgb(192, 192, 192);
+}
+.Home__card_desc {
+	display: flex;
+	width: 160px;
+	flex-direction: column;
+	padding: 19px 0;
+}
+.Home__card_title {
+	color: rgb(102, 102, 102);
+	font-size: 18px;
+	font-weight: 500;
+}
+.Home__card_text {
+	color: rgb(133, 133, 155);
+	font-size: 18px;
+	font-weight: 400;
+}
+.Home__mw_info {
+	display: flex;
+	gap: 30px;
+	flex-direction: row;
+}
+.Home__mw_title {
+	color: rgb(102, 102, 102);
+	font-size: 40px;
+	font-weight: 400;
+}
+.Home__mw_text {
+	color: rgb(133, 133, 155);
+	font-size: 19px;
+	font-weight: 400;
+	line-height: 170%;
+}
