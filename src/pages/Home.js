@@ -24,14 +24,14 @@ export default class Home extends Component {
 						<button className='Btn'>Каталог</button>
 					</div>
 					<div className='Home__hero_img'>
-						<img src={simple} className='Home__img' />
+						<img alt='' src={simple} className='Home__img' />
 					</div>
 				</div>
 
 				<div className='Home__mw'>
 					<div className='Home__mw_result'>
 						<div className='Home__mw_result_card'>
-							<img src={v1} className='Home__card_img' />
+							<img alt='' src={v1} className='Home__card_img' />
 							<div className='Home__card_desc'>
 								<h2 className='Home__card_title'>V.1</h2>
 								<span className='Home__card_text'>
@@ -40,7 +40,7 @@ export default class Home extends Component {
 							</div>
 						</div>
 						<div className='Home__mw_result_card'>
-							<img src={v2} className='Home__card_img' />
+							<img alt='' src={v2} className='Home__card_img' />
 							<div className='Home__card_desc'>
 								<h2 className='Home__card_title'>V.2</h2>
 								<span className='Home__card_text'>
@@ -49,7 +49,7 @@ export default class Home extends Component {
 							</div>
 						</div>
 						<div className='Home__mw_result_card'>
-							<img src={v3} className='Home__card_img' />
+							<img alt='' src={v3} className='Home__card_img' />
 							<div className='Home__card_desc'>
 								<h2 className='Home__card_title'>V.3</h2>
 								<span className='Home__card_text'>
@@ -60,7 +60,7 @@ export default class Home extends Component {
 					</div>
 
 					<div className='Home__mw_info'>
-						<img src={list} className='Home__mw_img' />
+						<img alt='' src={list} className='Home__mw_img' />
 						<div className='Home__mw_desc'>
 							<h2 className='Home__mw_title'>Максимальная белизна</h2>
 							<p className='Home__mw_text'>
