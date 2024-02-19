@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import './App.css'
 import './index.css'
 import Header from './Components/Header'
+import Footer from './Components/Footer'
 import Home from './pages/Home'
 
 export default class App extends Component {
@@ -10,6 +11,7 @@ export default class App extends Component {
 			<main>
 				<Header />
 				<Home />
+				<Footer />
 			</main>
 		)
 	}

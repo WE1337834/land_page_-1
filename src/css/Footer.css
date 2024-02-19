@@ -1,0 +1,63 @@
+footer {
+	background: rgb(76, 88, 102);
+	padding: 28.5px 19%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.Footer__logo_name {
+	display: flex;
+	align-items: center;
+	padding: 0px;
+}
+.Footer__logo_ellipse1 {
+	/* Ellipse 3 */
+	width: 17px;
+	height: 17px;
+	margin: 0px 5px;
+	box-sizing: border-box;
+	border: 1px solid rgb(255, 255, 255);
+	border-radius: 50%;
+}
+.Footer__logo_ellipse2 {
+	width: 32px;
+	height: 17px;
+	margin: 0px 5px;
+	box-sizing: border-box;
+	border: 1px solid rgb(255, 255, 255);
+	border-radius: 11px;
+}
+.Footer__logo_text {
+	color: rgb(255, 255, 255);
+	font-family: Ubuntu;
+	font-size: 20px;
+	font-weight: 300;
+}
+.Footer__icon {
+	color: rgb(255, 255, 255);
+	cursor: pointer;
+}
+.Footer__icon:hover {
+	color: rgb(218, 217, 251);
+}
+.Footer__icon:focus {
+	color: rgb(255, 255, 255);
+}
+.Footer__icon:active {
+	color: rgb(120, 117, 254);
+}
+.Footer__sn {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: flex-start;
+	gap: 30px;
+}
+.copyright {
+	background: rgb(235, 235, 235);
+	width: 100%;
+	font-size: 13px;
+	font-weight: 400;
+	text-align: center;
+	text-transform: uppercase;
+}

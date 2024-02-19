@@ -1,15 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.56326d1f.css",
-    "main.js": "/static/js/main.1599c143.js",
+    "main.css": "/static/css/main.b395d414.css",
+    "main.js": "/static/js/main.e63ca151.js",
     "static/media/Hero.png": "/static/media/Hero.22be41f66aa836014340.png",
+    "static/media/book.png": "/static/media/book.78c061800c50d301cdb1.png",
     "static/media/openlist.png": "/static/media/openlist.e399019f9248f1492a18.png",
+    "static/media/Package.png": "/static/media/Package.0077c21531f46973dd1c.png",
+    "static/media/Cases.png": "/static/media/Cases.b8da928764e0180836ce.png",
+    "static/media/products.png": "/static/media/products.74fe7bebf73b0d785b32.png",
+    "static/media/Packages.png": "/static/media/Packages.dafefe1a32775600eb2d.png",
+    "static/media/Inst.svg": "/static/media/Inst.9dcf4e7388e7fe8b77a64adfb7a646e7.svg",
+    "static/media/YouTube.svg": "/static/media/YouTube.f734ab43512c9f2111db5b0990eeb761.svg",
+    "static/media/Twitter.svg": "/static/media/Twitter.0c6a3611f4e239defd504658e3461ae2.svg",
     "index.html": "/index.html",
-    "main.56326d1f.css.map": "/static/css/main.56326d1f.css.map",
-    "main.1599c143.js.map": "/static/js/main.1599c143.js.map"
+    "static/media/Facebook.svg": "/static/media/Facebook.20c8c0eaee3d159a577fe4a073ff8164.svg",
+    "static/media/Arrow.svg": "/static/media/Arrow.8b1d5cd70b97ddb00232f52d72c7eac9.svg",
+    "main.b395d414.css.map": "/static/css/main.b395d414.css.map",
+    "main.e63ca151.js.map": "/static/js/main.e63ca151.js.map"
   },
   "entrypoints": [
-    "static/css/main.56326d1f.css",
-    "static/js/main.1599c143.js"
+    "static/css/main.b395d414.css",
+    "static/js/main.e63ca151.js"
   ]
 }

@@ -1,9 +1,24 @@
 import React, { Component } from 'react'
+
 import simple from '../img/Hero.png'
 import v1 from '../img/v1.png'
 import v2 from '../img/v2.png'
 import v3 from '../img/v3.png'
 import list from '../img/openlist.png'
+import Package from '../img/Package.png'
+import Packages from '../img/Packages.png'
+import Cases from '../img/Cases.png'
+import Products from '../img/products.png'
+
+import Hm from '../img/Hm.png'
+import Canson from '../img/canson.png'
+import Rt from '../img/Rt.png'
+import Fabriano from '../img/fabriano.png'
+
+import Book from '../img/book.png'
+
+import { ReactComponent as Arrow } from '../img/Arrow.svg'
+
 import '../css/Home.css'
 
 export default class Home extends Component {
@@ -73,6 +88,111 @@ export default class Home extends Component {
 								транспортер) металлическая или капроновая сетка.
 							</p>
 						</div>
+					</div>
+				</div>
+
+				<div className='Home__goods'>
+					<div className='Home__goods_card'>
+						<div className='Home__goods_img_desc'>
+							<img alt='' className='Home__goods_img' src={Package} />
+						</div>
+						<div className='Home__goods_desc'>
+							<h2 className='Home__goods_title'>Упаковка</h2>
+							<span className='Home__goods_circ'>Тираж: от 50 штук</span>
+							<p className='Home__goods_text'>
+								Сделано из крафт-бумаги или плотного картона. Упаковки имеют
+								различные формы и расцветки, изготовим форму под заказ.
+							</p>
+						</div>
+						<a className='Details' href='/'>
+							Подробнее
+							<Arrow />
+						</a>
+					</div>
+					<div className='Home__goods_card'>
+						<div className='Home__goods_img_desc'>
+							<img alt='' className='Home__goods_img' src={Packages} />
+						</div>
+						<div className='Home__goods_desc'>
+							<h2 className='Home__goods_title'>Пакеты</h2>
+							<span className='Home__goods_circ'>Тираж: от 200 штук</span>
+							<p className='Home__goods_text'>
+								С прямоугольным дном. От 10 см до 60 см по высоте. Материалы:
+								картон, крафт-бумага. Различные расцветки и дизайн.
+							</p>
+						</div>
+						<a className='Details' href='/'>
+							Подробнее
+							<Arrow />
+						</a>
+					</div>
+					<div className='Home__goods_card'>
+						<div className='Home__goods_img_desc'>
+							<img alt='' className='Home__goods_img' src={Cases} />
+						</div>
+						<div className='Home__goods_desc'>
+							<h2 className='Home__goods_title'>Кейсы</h2>
+							<span className='Home__goods_circ'>Тираж: от 30 штук</span>
+							<p className='Home__goods_text'>
+								Подойдет для документов и других бумаг. Различные расцветки,
+								размеры и плотность. Материал: прессованная бумага.
+							</p>
+						</div>
+						<a className='Details' href='/'>
+							Подробнее
+							<Arrow />
+						</a>
+					</div>
+					<div className='Home__goods_card'>
+						<div className='Home__goods_img_desc'>
+							<img alt='' className='Home__goods_img' src={Products} />
+						</div>
+						<div className='Home__goods_desc'>
+							<h2 className='Home__goods_title'>Другие изделия </h2>
+							<span className='Home__goods_circ'>Тираж: от 100 штук</span>
+							<p className='Home__goods_text'>
+								Нестандартные упаковки, кейсы и другие изделия различных
+								размеров и конфигураций. Изготовим в кратчайшие сроки.
+							</p>
+						</div>
+						<a className='Details' href='/'>
+							Подробнее
+							<Arrow />
+						</a>
+					</div>
+				</div>
+
+				<div className='Home__spons'>
+					<div className='Home__spons_carts'>
+						<div className='Home__spons_cart'>
+							<img alt='' className='Home__spons_img' src={Hm} />
+						</div>
+						<div className='Home__spons_cart'>
+							<img alt='' className='Home__spons_img' src={Canson} />
+						</div>
+						<div className='Home__spons_cart'>
+							<img alt='' className='Home__spons_img' src={Rt} />
+						</div>
+						<div className='Home__spons_cart'>
+							<img alt='' className='Home__spons_img' src={Fabriano} />
+						</div>
+					</div>
+				</div>
+
+				<div className='Home__sketchbook'>
+					<div className='Home__sketchbook_content'>
+						<div className='Home__sketchbook_block'>
+							<div className='Home__sketchbook_info'>
+								<h2 className='Home__sketchbook_title'>Simple скетчбук</h2>
+								<p className='Home__sketchbook_text'>
+									80 листов, твердая обложка, бумага Fabriano 200 г/м2. Подойдет
+									и для графики и для акварели. Для самых смелых творческих
+									замыслов!
+								</p>
+							</div>
+							<button className='Btn'>Купить</button>
+						</div>
+						<img alt='' className='Home__sketchbook_img' src={Book} />
 					</div>
 				</div>
 			</section>
