@@ -30,15 +30,11 @@ export default class Header extends Component {
 
 						<span className='Header__nav_search_login'>
 							<img
-								width='24'
-								height='24'
 								src='https://img.icons8.com/windows/32/search--v1.png'
 								alt='search'
 								className='Header__nav_search'
 							/>
 							<img
-								width='24'
-								height='24'
 								src='https://img.icons8.com/tiny-glyph/16/enter-2.png'
 								alt='enter'
 								className='Header__nav_login'

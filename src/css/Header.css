@@ -1,6 +1,6 @@
 .Header {
 	background: rgb(255, 255, 255);
-	padding: 30px 10px;
+	padding: 2% 1%;
 	display: flex;
 }
 .Header__center {
@@ -12,38 +12,37 @@
 .Header__logo_name {
 	display: flex;
 	align-items: center;
-	padding: 0px;
+	gap: 5px;
 }
 .Header__logo_ellipse1 {
 	/* Ellipse 3 */
-	width: 17px;
-	height: 17px;
-	margin: 0px 5px;
+	height: 70%;
+	aspect-ratio: 1/1;
 	box-sizing: border-box;
 	border: 1px solid rgb(51, 51, 51);
 	border-radius: 50%;
 }
 .Header__logo_ellipse2 {
-	width: 32px;
-	height: 17px;
-	margin: 0px 5px;
+	height: 70%;
+	aspect-ratio: 2/1;
 	box-sizing: border-box;
 	border: 1px solid rgb(51, 51, 51);
-	border-radius: 11px;
+	border-radius: 20px;
 }
 .Header__logo_text {
-	margin: 0px 5px;
 	color: rgb(51, 51, 51);
 	font-family: Ubuntu;
-	font-size: 20px;
+	font-size: 2.2vh;
 }
 .Header__nav {
 	display: flex;
-	gap: 60px;
+	width: 80%;
+	box-sizing: border-box;
+	gap: 12%;
 }
 .Header__nav_link {
 	color: rgb(76, 88, 102);
-	font-size: 20px;
+	font-size: 2.1vh;
 	font-weight: 400;
 	line-height: 1;
 	text-decoration: none;
@@ -53,7 +52,7 @@
 	background-color: grey;
 	content: '';
 	display: block;
-	height: 2px;
+	height: 5%;
 	transition: width 0.3s ease-out;
 	width: 0;
 }
@@ -63,9 +62,11 @@
 }
 .Header__nav_search_login {
 	display: flex;
-	gap: 30px;
+	gap: 80%;
 }
 .Header__nav_search,
 .Header__nav_login {
 	cursor: pointer;
+	height: 70%;
+	aspect-ratio: 1/1;
 }
