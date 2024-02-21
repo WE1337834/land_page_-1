@@ -14,17 +14,15 @@ main {
 	display: flex;
 	margin: auto;
 	flex-direction: column;
-	/* border: 2px solid black; */
 }
 .Btn {
-	width: 255px;
-	padding: 20px 50px 20px 50px;
-	box-sizing: border-box;
+	width: 14vw;
+	padding: 2.2vh 4.6vw;
 	border: 2px solid rgba(119, 117, 254, 0.705);
 	background: none;
 	transition: 0.4s;
 	color: rgb(120, 117, 254);
-	font-size: 20px;
+	font-size: 1.4vw;
 }
 .Btn:hover {
 	background: rgb(120, 117, 254);
